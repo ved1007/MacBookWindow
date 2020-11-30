@@ -6,3 +6,4 @@ Given Open Web Page
 Then Populate the Search field
 And Click on the Search button
 Then Close the Google Web Page
+Then Close the Google Web Page
