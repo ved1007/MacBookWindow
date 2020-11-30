@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Google page Search",
+        "description": "",
+        "id": "google-page-test;google-page-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12048343900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Web Page",
+            "match": {
+              "location": "GooglePageTest.open_Web_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 992050900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Populate the Search field",
+            "match": {
+              "location": "GooglePageTest.populate_the_Search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1309328900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the Search button",
+            "match": {
+              "location": "GooglePageTest.click_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1168575900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Web Page",
+            "match": {
+              "location": "GooglePageTest.close_the_Web_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Page Test",
+    "description": "",
+    "id": "google-page-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/PC User1/Desktop/SeleniumFiles/RunWithJenins1/src/main/java/Features/Test.feature"
+  }
+]
